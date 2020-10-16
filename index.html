@@ -1,0 +1,45 @@
+<!DOCTYPE html> 
+
+	<html lang="en">
+	
+		<head>
+			<title>Simple Calculator</title>
+			<meta charset="UTF-8" />
+			<meta name="viewport" type="divice=device-width,initial-sclae=1.0" />
+			<link rel="stylesheet" href="style.css" />
+		</head>
+		<body>
+			<!--img src="./background.jpg" alt="background" class="pic_background"-->
+			<form class="forms" > 
+				<div class="input1">
+					1<sup>st</sup> Number  :
+					<input name="text" type="name" id="input1"/>
+				</div>
+				<div class="OP">
+					<select id="opr">
+						<option value="+">+</option>
+						<option value="-">-</option>
+						<option value="*">*</option>
+						<option value="/">/</option>
+					</select>
+				</div>
+				<div  class="input2" >
+					2<sup>nd</sup> number :
+					<input name="text1" type="name" id="input2" />
+				</div>
+				<div class="lastchild">
+					<input type="button" value="SUBMIT" class="submit" id="sub" onclick="cal();">
+				</div>
+				<div>
+					<h1>Ans:</h1>
+					<input name="total" type="text" 
+					class="total" id="total"></label>
+				</div>
+			</form>
+			
+		</body>
+		
+		<script src="main.js"></script>
+	
+	</html>
+	
